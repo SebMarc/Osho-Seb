@@ -26,10 +26,9 @@ a:hover {
     display: flex;
 }
 
-.container {
-    /* display: flex;
-    justify-content: space-between; */
-    /* max-width: 1400px; */
+#footer-services .container {
+    display: flex;
+    justify-content: space-around;
 }
 
 #footer-services {

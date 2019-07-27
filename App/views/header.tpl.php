@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../public/assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="../public/assets/css/owl.theme.default.min.css">
   <link rel="stylesheet" href="../public/assets/css/styles.css">
+ 
   <title>oShop</title>
 </head>
 

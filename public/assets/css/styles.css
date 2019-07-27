@@ -1,3 +1,7 @@
+* {
+    font-family: 'FontAwesome';
+}
+
 a {
     color: rgba(0, 0, 0, .7);
 }
@@ -69,17 +73,16 @@ a:hover {
     display: flex;
 }
 
-.fa-truck {
-    width: 50px;
-}
-
-.fa-money {
-    width: 50px;
-}
-
+.fa-truck,
+.fa-money,
 .fa-phone {
-    width: 50px;
+    width: 60px;
+    font-size: 2.7rem;
+    border-right: solid 2px #DDE1E5;
+    margin-right: 10px;
 }
+
+.fa-truck::before {}
 
 .text-uppercase {
     font-weight: bold;
@@ -95,5 +98,5 @@ a:hover {
 }
 
 .product:hover {
-    transform: scale(1.10);
+    transform: scale(1.15);
 }

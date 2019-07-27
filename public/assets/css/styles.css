@@ -57,17 +57,13 @@ a:hover {
 }
 
 .cb {
-    display: flex;
-    justify-content: flex-end;
-    max-width: 100%;
+    /* display: flex;
+    justify-content: center;
+    max-width: 100%; */
 }
 
 .payment-icon {
     width: 35px;
-}
-
-.align-items-center {
-    /* width: 100%; */
 }
 
 .mx-0 {
@@ -106,4 +102,18 @@ a:hover {
 
 .product:hover {
     transform: scale(1.15);
+}
+
+.notfound {
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+.navbar-icon-link {
+    margin-right: 10px;
+}
+
+.owl-carousel .imgcar {
+    width: 50%
 }

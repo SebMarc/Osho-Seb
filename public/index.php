@@ -2,6 +2,8 @@
 
 require_once __DIR__ . '/../App/Controller/MainController.php';
 require_once __DIR__ . '/../App/Controller/CategoryController.php';
+require_once __DIR__ . '/../App/Controller/NotfoundController.php';
+require_once __DIR__ . '/../App/Controller/CartController.php';
 require_once __DIR__ . '/../vendor/autoload.php';
 
 $router = new AltoRouter();
@@ -37,6 +39,16 @@ $router->map(
     'categorie'
 );
 
+$router->map(
+    'GET', 
+    '/cart', 
+    array(
+        'controller' => 'CartController', 
+        'methode' => 'cart'
+    ), 
+    'cart'
+);
+
 $match = $router->match();
 if($match !== false) {
     
@@ -48,7 +60,14 @@ if($match !== false) {
     $controller->$nomDeLaMethode($parametresDeLaRoute);
 
 } else {
-    echo "Page not found";
+    $nomDuControlleur = 'NotFoundController';
+    $nomDeLaMethode = 'notfound';
+    $parametresDeLaRoute = '';
+    
+    $controller = new $nomDuControlleur();
+    $controller->$nomDeLaMethode($parametresDeLaRoute);
+
+    
 }
 
 

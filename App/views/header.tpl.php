@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="../public/assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="../public/assets/css/owl.theme.default.min.css">
   <link rel="stylesheet" href="../public/assets/css/styles.css">
+  <link rel="stylesheet" href="../public/assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../public/assets/css/owl.theme.default.min.css">  
  
   <title>oShop</title>
 </head>
@@ -61,6 +63,7 @@
             <li class="nav-item">
               <a href="#" class="nav-link">Contact</a>
             </li>
+            
           </ul>
           <div class="d-flex align-items-center justify-content-between justify-content-lg-end mt-1 mb-2 my-lg-0">
             <!-- Search Button-->
@@ -72,6 +75,9 @@
               <a href="#" class="navbar-icon-link"><i class="fa fa-user"></i></a>
             </div>
             <!-- Cart Dropdown TODO -->
+            <div class="nav-item">
+            <a href="#" ><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </div>
           </div>
         </div>
       </div>

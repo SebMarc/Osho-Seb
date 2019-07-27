@@ -1,0 +1,90 @@
+a {
+    color: rgba(0, 0, 0, .7);
+}
+
+a:hover {
+    color: rgba(0, 0, 0, .6);
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F9FA;
+    color: grey;
+    padding: 0.5rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    /* display: flex;
+    justify-content: space-between; */
+    /* max-width: 1400px; */
+}
+
+#footer-services {
+    background-color: #F8F9FA;
+    margin-top: 2rem;
+}
+
+#footer-menu {
+    background-color: #DDE1E5
+}
+
+#footer-copyright {
+    /* display: flex; */
+    background-color: #373C42;
+    color: grey;
+}
+
+.cb {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
+}
+
+.payment-icon {
+    width: 35px;
+}
+
+.align-items-center {
+    /* width: 100%; */
+}
+
+.mx-0 {
+    margin-bottom: 1.9rem;
+}
+
+#navright {
+    width: 5%;
+}
+
+.service-column {
+    display: flex;
+}
+
+.fa-truck {
+    width: 50px;
+}
+
+.fa-money {
+    width: 50px;
+}
+
+.fa-phone {
+    width: 50px;
+}
+
+.text-uppercase {
+    font-weight: bold;
+}
+
+.font-weight-light {
+    font-size: 0.8rem;
+}

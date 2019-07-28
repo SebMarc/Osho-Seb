@@ -31,6 +31,12 @@
           </div>
           <div class="col-sm-5 d-flex justify-content-end">
             <!-- Currency Dropdown TODO -->
+            <label for="currency" id="currencylabel">Devise</label>
+            <select id="currency">
+              <option selected="selected">€URO</option>
+              <option>USD</option>
+              <option>GPB<i class="fab fa-euro-sign"></i></option>
+</select>
             
           </div>
         </div>
@@ -73,11 +79,13 @@
             </div>
             <!-- User Not Logged - link to login page-->
             <div class="nav-item">
-              <a href="#" class="navbar-icon-link"><i class="fa fa-user"></i></a>
+              <a href="#" class="navbar-icon-link" ><i class="fa fa-user"></i></a>
             </div>
             <!-- Cart Dropdown TODO -->
             <div class="nav-item">
             <a href="#" ><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <p id = "cart-article-number">2</p>
+            <span><a href="cartmini"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a></span>
             </div>
           </div>
         </div>

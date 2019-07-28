@@ -4,6 +4,8 @@ require_once __DIR__ . '/../App/Controller/MainController.php';
 require_once __DIR__ . '/../App/Controller/CategoryController.php';
 require_once __DIR__ . '/../App/Controller/NotfoundController.php';
 require_once __DIR__ . '/../App/Controller/CartController.php';
+require_once __DIR__ . '/../App/Controller/ProductController.php';
+require_once __DIR__ . '/../App/Controller/CartMiniController.php';
 require_once __DIR__ . '/../vendor/autoload.php';
 
 $router = new AltoRouter();
@@ -47,6 +49,26 @@ $router->map(
         'methode' => 'cart'
     ), 
     'cart'
+);
+
+$router->map(
+    'GET', 
+    '/product', 
+    array(
+        'controller' => 'ProductController', 
+        'methode' => 'product'
+    ), 
+    'product'
+);
+
+$router->map(
+    'GET', 
+    '/cartmini', 
+    array(
+        'controller' => 'CartMiniController', 
+        'methode' => 'cartmini'
+    ), 
+    'cartmini'
 );
 
 $match = $router->match();

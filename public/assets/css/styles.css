@@ -56,12 +56,6 @@ a:hover {
     color: grey;
 }
 
-.cb {
-    /* display: flex;
-    justify-content: center;
-    max-width: 100%; */
-}
-
 .payment-icon {
     width: 35px;
 }
@@ -112,8 +106,4 @@ a:hover {
 
 .navbar-icon-link {
     margin-right: 10px;
-}
-
-.owl-carousel .imgcar {
-    width: 50%
 }

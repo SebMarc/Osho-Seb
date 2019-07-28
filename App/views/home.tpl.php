@@ -1,11 +1,8 @@
 <div class="owl-carousel owl-theme">
-<div> <img src="../public/assets/images/produits/1-kiss_tn.jpg" alt=""> </div>
+<div> <img src="../public/assets/images/produits/1-kiss.jpg" alt=""> </div>
 <div> <img src="../public/assets/images/produits/2-rose.jpg" alt=""> </div>
 <div> <img src="../public/assets/images/produits/3-panda.jpg" alt="">  </div>
-<div> <img src="../public/assets/images/produits/4-zombie.jpg" alt="">  </div>
-<div> <img src="../public/assets/images/produits/5-minion.jpg" alt="">  </div>
-<div> <img src="../public/assets/images/produits/6-pernoel.jpg" alt="">  </div>
-<div> <img src="../public/assets/images/produits/7-sleepy.jpg" alt="">  </div>
+
 </div>
 <section>
     <div class="container-fluid">

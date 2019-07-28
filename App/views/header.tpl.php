@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="../public/assets/css/owl.theme.default.min.css">
   <link rel="stylesheet" href="../public/assets/css/styles.css">
   <link rel="stylesheet" href="../public/assets/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="../public/assets/css/owl.theme.default.min.css">  
+  <link rel="stylesheet" href="../public/assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../public/assets/css/animate.css/animate.css">   
  
   <title>oShop</title>
 </head>
